@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E659B2FC20AB9C28C039A57 /* libPods-YJDEffectText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7F63ABC162DACDA14AAAB6 /* libPods-YJDEffectText.a */; };
+		5AC704962239EC8500721DDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC704952239EC8500721DDF /* AppDelegate.m */; };
+		5AC704992239EC8500721DDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC704982239EC8500721DDF /* ViewController.m */; };
+		5AC7049C2239EC8500721DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC7049A2239EC8500721DDF /* Main.storyboard */; };
+		5AC7049E2239EC8700721DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AC7049D2239EC8700721DDF /* Assets.xcassets */; };
+		5AC704A12239EC8700721DDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC7049F2239EC8700721DDF /* LaunchScreen.storyboard */; };
+		5AC704A42239EC8700721DDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC704A32239EC8700721DDF /* main.m */; };
+		5AC704AD2239EF5C00721DDF /* YJDColorPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC704AC2239EF5C00721DDF /* YJDColorPickView.m */; };
+		5AC704B12239F02800721DDF /* UIColor+YJDColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC704B02239F02800721DDF /* UIColor+YJDColor.m */; };
+		5AC704B42239F2CE00721DDF /* YJDCharacterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC704B32239F2CE00721DDF /* YJDCharacterItem.m */; };
+		5AC704B72239F5D800721DDF /* YJDColorLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC704B62239F5D800721DDF /* YJDColorLabel.m */; };
+		5AC704BA2239F67100721DDF /* YJDCharacterItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC704B92239F67100721DDF /* YJDCharacterItemView.m */; };
+		5AC704BD2239FA1600721DDF /* YJDColorInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC704BC2239FA1600721DDF /* YJDColorInputView.m */; };
+		5AC704C02239FE4B00721DDF /* YJDCharacterBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC704BF2239FE4B00721DDF /* YJDCharacterBottomView.m */; };
+		5AC704C3223A038F00721DDF /* YJDCharacterEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC704C2223A038F00721DDF /* YJDCharacterEditView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D7F63ABC162DACDA14AAAB6 /* libPods-YJDEffectText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YJDEffectText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC704912239EC8500721DDF /* YJDEffectText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJDEffectText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC704942239EC8500721DDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5AC704952239EC8500721DDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5AC704972239EC8500721DDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5AC704982239EC8500721DDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5AC7049B2239EC8500721DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AC7049D2239EC8700721DDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AC704A02239EC8700721DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AC704A22239EC8700721DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AC704A32239EC8700721DDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AC704AB2239EF5C00721DDF /* YJDColorPickView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJDColorPickView.h; sourceTree = "<group>"; };
+		5AC704AC2239EF5C00721DDF /* YJDColorPickView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJDColorPickView.m; sourceTree = "<group>"; };
+		5AC704AF2239F02800721DDF /* UIColor+YJDColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+YJDColor.h"; sourceTree = "<group>"; };
+		5AC704B02239F02800721DDF /* UIColor+YJDColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YJDColor.m"; sourceTree = "<group>"; };
+		5AC704B22239F2CE00721DDF /* YJDCharacterItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJDCharacterItem.h; sourceTree = "<group>"; };
+		5AC704B32239F2CE00721DDF /* YJDCharacterItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJDCharacterItem.m; sourceTree = "<group>"; };
+		5AC704B52239F5D800721DDF /* YJDColorLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJDColorLabel.h; sourceTree = "<group>"; };
+		5AC704B62239F5D800721DDF /* YJDColorLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJDColorLabel.m; sourceTree = "<group>"; };
+		5AC704B82239F67100721DDF /* YJDCharacterItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJDCharacterItemView.h; sourceTree = "<group>"; };
+		5AC704B92239F67100721DDF /* YJDCharacterItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJDCharacterItemView.m; sourceTree = "<group>"; };
+		5AC704BB2239FA1600721DDF /* YJDColorInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJDColorInputView.h; sourceTree = "<group>"; };
+		5AC704BC2239FA1600721DDF /* YJDColorInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJDColorInputView.m; sourceTree = "<group>"; };
+		5AC704BE2239FE4B00721DDF /* YJDCharacterBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJDCharacterBottomView.h; sourceTree = "<group>"; };
+		5AC704BF2239FE4B00721DDF /* YJDCharacterBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJDCharacterBottomView.m; sourceTree = "<group>"; };
+		5AC704C1223A038F00721DDF /* YJDCharacterEditView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJDCharacterEditView.h; sourceTree = "<group>"; };
+		5AC704C2223A038F00721DDF /* YJDCharacterEditView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJDCharacterEditView.m; sourceTree = "<group>"; };
+		BCD7F3DA681E70D1B1339796 /* Pods-YJDEffectText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJDEffectText.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJDEffectText/Pods-YJDEffectText.debug.xcconfig"; sourceTree = "<group>"; };
+		D8B1F6810184B7B80598752F /* Pods-YJDEffectText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJDEffectText.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJDEffectText/Pods-YJDEffectText.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AC7048E2239EC8500721DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E659B2FC20AB9C28C039A57 /* libPods-YJDEffectText.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E811E28C1C7C6C9FDC1840F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D7F63ABC162DACDA14AAAB6 /* libPods-YJDEffectText.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5851E8C29A8960BDA9E61379 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCD7F3DA681E70D1B1339796 /* Pods-YJDEffectText.debug.xcconfig */,
+				D8B1F6810184B7B80598752F /* Pods-YJDEffectText.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5AC704882239EC8500721DDF = {
+			isa = PBXGroup;
+			children = (
+				5AC704932239EC8500721DDF /* YJDEffectText */,
+				5AC704922239EC8500721DDF /* Products */,
+				5851E8C29A8960BDA9E61379 /* Pods */,
+				0E811E28C1C7C6C9FDC1840F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5AC704922239EC8500721DDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AC704912239EC8500721DDF /* YJDEffectText.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AC704932239EC8500721DDF /* YJDEffectText */ = {
+			isa = PBXGroup;
+			children = (
+				5AC704AA2239EF3600721DDF /* EffectText */,
+				5AC704942239EC8500721DDF /* AppDelegate.h */,
+				5AC704952239EC8500721DDF /* AppDelegate.m */,
+				5AC704972239EC8500721DDF /* ViewController.h */,
+				5AC704982239EC8500721DDF /* ViewController.m */,
+				5AC7049A2239EC8500721DDF /* Main.storyboard */,
+				5AC7049D2239EC8700721DDF /* Assets.xcassets */,
+				5AC7049F2239EC8700721DDF /* LaunchScreen.storyboard */,
+				5AC704A22239EC8700721DDF /* Info.plist */,
+				5AC704A32239EC8700721DDF /* main.m */,
+			);
+			path = YJDEffectText;
+			sourceTree = "<group>";
+		};
+		5AC704AA2239EF3600721DDF /* EffectText */ = {
+			isa = PBXGroup;
+			children = (
+				5AC704BB2239FA1600721DDF /* YJDColorInputView.h */,
+				5AC704BC2239FA1600721DDF /* YJDColorInputView.m */,
+				5AC704AB2239EF5C00721DDF /* YJDColorPickView.h */,
+				5AC704AC2239EF5C00721DDF /* YJDColorPickView.m */,
+				5AC704AF2239F02800721DDF /* UIColor+YJDColor.h */,
+				5AC704B02239F02800721DDF /* UIColor+YJDColor.m */,
+				5AC704B22239F2CE00721DDF /* YJDCharacterItem.h */,
+				5AC704B32239F2CE00721DDF /* YJDCharacterItem.m */,
+				5AC704B52239F5D800721DDF /* YJDColorLabel.h */,
+				5AC704B62239F5D800721DDF /* YJDColorLabel.m */,
+				5AC704B82239F67100721DDF /* YJDCharacterItemView.h */,
+				5AC704B92239F67100721DDF /* YJDCharacterItemView.m */,
+				5AC704BE2239FE4B00721DDF /* YJDCharacterBottomView.h */,
+				5AC704BF2239FE4B00721DDF /* YJDCharacterBottomView.m */,
+				5AC704C1223A038F00721DDF /* YJDCharacterEditView.h */,
+				5AC704C2223A038F00721DDF /* YJDCharacterEditView.m */,
+			);
+			path = EffectText;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AC704902239EC8500721DDF /* YJDEffectText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AC704A72239EC8700721DDF /* Build configuration list for PBXNativeTarget "YJDEffectText" */;
+			buildPhases = (
+				D619F8909D4B0F72FEAD81E9 /* [CP] Check Pods Manifest.lock */,
+				5AC7048D2239EC8500721DDF /* Sources */,
+				5AC7048E2239EC8500721DDF /* Frameworks */,
+				5AC7048F2239EC8500721DDF /* Resources */,
+				413F717E4D10892704AA2F11 /* [CP] Embed Pods Frameworks */,
+				DC7C46BF47969302808A1A32 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJDEffectText;
+			productName = YJDEffectText;
+			productReference = 5AC704912239EC8500721DDF /* YJDEffectText.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AC704892239EC8500721DDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = com.yy;
+				TargetAttributes = {
+					5AC704902239EC8500721DDF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5AC7048C2239EC8500721DDF /* Build configuration list for PBXProject "YJDEffectText" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AC704882239EC8500721DDF;
+			productRefGroup = 5AC704922239EC8500721DDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AC704902239EC8500721DDF /* YJDEffectText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AC7048F2239EC8500721DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AC704A12239EC8700721DDF /* LaunchScreen.storyboard in Resources */,
+				5AC7049E2239EC8700721DDF /* Assets.xcassets in Resources */,
+				5AC7049C2239EC8500721DDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		413F717E4D10892704AA2F11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJDEffectText/Pods-YJDEffectText-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D619F8909D4B0F72FEAD81E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YJDEffectText-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC7C46BF47969302808A1A32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJDEffectText/Pods-YJDEffectText-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AC7048D2239EC8500721DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AC704B12239F02800721DDF /* UIColor+YJDColor.m in Sources */,
+				5AC704992239EC8500721DDF /* ViewController.m in Sources */,
+				5AC704BD2239FA1600721DDF /* YJDColorInputView.m in Sources */,
+				5AC704C02239FE4B00721DDF /* YJDCharacterBottomView.m in Sources */,
+				5AC704B42239F2CE00721DDF /* YJDCharacterItem.m in Sources */,
+				5AC704B72239F5D800721DDF /* YJDColorLabel.m in Sources */,
+				5AC704AD2239EF5C00721DDF /* YJDColorPickView.m in Sources */,
+				5AC704A42239EC8700721DDF /* main.m in Sources */,
+				5AC704C3223A038F00721DDF /* YJDCharacterEditView.m in Sources */,
+				5AC704962239EC8500721DDF /* AppDelegate.m in Sources */,
+				5AC704BA2239F67100721DDF /* YJDCharacterItemView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5AC7049A2239EC8500721DDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AC7049B2239EC8500721DDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AC7049F2239EC8700721DDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AC704A02239EC8700721DDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AC704A52239EC8700721DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AC704A62239EC8700721DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AC704A82239EC8700721DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD7F3DA681E70D1B1339796 /* Pods-YJDEffectText.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ND42XNAEZ;
+				INFOPLIST_FILE = YJDEffectText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yy.YJDEffectText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AC704A92239EC8700721DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8B1F6810184B7B80598752F /* Pods-YJDEffectText.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ND42XNAEZ;
+				INFOPLIST_FILE = YJDEffectText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yy.YJDEffectText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AC7048C2239EC8500721DDF /* Build configuration list for PBXProject "YJDEffectText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AC704A52239EC8700721DDF /* Debug */,
+				5AC704A62239EC8700721DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AC704A72239EC8700721DDF /* Build configuration list for PBXNativeTarget "YJDEffectText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AC704A82239EC8700721DDF /* Debug */,
+				5AC704A92239EC8700721DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AC704892239EC8500721DDF /* Project object */;
+}
